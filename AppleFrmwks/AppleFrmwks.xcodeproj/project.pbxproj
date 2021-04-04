@@ -12,6 +12,7 @@
 		F544CA052619657500E90D03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F544CA042619657500E90D03 /* Preview Assets.xcassets */; };
 		F544CA0E2619666000E90D03 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544CA0D2619666000E90D03 /* Framework.swift */; };
 		F544CA112619688500E90D03 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544CA102619688500E90D03 /* FrameworkGridView.swift */; };
+		F54F75BF261A6A1600EFB41C /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54F75BE261A6A1600EFB41C /* FrameworkTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F544CA062619657500E90D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F544CA0D2619666000E90D03 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		F544CA102619688500E90D03 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		F54F75BE261A6A1600EFB41C /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F544C9FD2619657300E90D03 /* AppleFrmwksApp.swift */,
 				F544CA102619688500E90D03 /* FrameworkGridView.swift */,
+				F54F75BE261A6A1600EFB41C /* FrameworkTitleView.swift */,
 				F544CA0D2619666000E90D03 /* Framework.swift */,
 				F544CA012619657500E90D03 /* Assets.xcassets */,
 				F544CA062619657500E90D03 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				F544CA112619688500E90D03 /* FrameworkGridView.swift in Sources */,
 				F544CA0E2619666000E90D03 /* Framework.swift in Sources */,
+				F54F75BF261A6A1600EFB41C /* FrameworkTitleView.swift in Sources */,
 				F544C9FE2619657300E90D03 /* AppleFrmwksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

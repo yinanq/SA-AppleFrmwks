@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FrameworkGridView: View {
     var body: some View {
-        Text("Hello, World!")
+        FrameworkTitleView(name: "App Clips", image: "app-clip")
     }
 }
 
