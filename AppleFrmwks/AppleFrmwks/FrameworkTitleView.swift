@@ -8,24 +8,26 @@
 import SwiftUI
 
 struct FrameworkTitleView: View {
-    let name: String
-    let image: String
+    
+    let framework: Framework
+    
     var body: some View {
         VStack {
-            Image(image)
+            Image(framework.imageName)
                 .resizable()
                 .frame(width: 90, height: 90)
-            Text(name)
+            Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
         }
+        .padding()
     }
 }
 
 struct FFrameworkTitleView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkTitleView(name: "App Clips", image: "app-clip")
+        FrameworkTitleView(framework: MockData.frameworks[0])
     }
 }
